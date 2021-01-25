@@ -8,5 +8,3 @@ Maybe even a photo?
 
 Photo by [Paul Esch-Laurent](https://unsplash.com/@pinjasaur) (that's me 👋) on
 [Unsplash](https://unsplash.com/@pinjasaur).
-
-Bare URL: http://example.com

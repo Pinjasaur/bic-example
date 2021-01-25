@@ -5,13 +5,11 @@
 
   {{> _header.html}}
 
-  <h2>Posts:</h2>
   <main>
-    <ol>
-      {{#entries}}
-      <li><a href="/{{slug}}">{{title}}</a></li>
-      {{/entries}}
-    </ol>
+    <h2>Posts:</h2>
+    <ul>
+      {{{__index}}}
+    </ul>
   </main>
 
   {{> _footer.html}}

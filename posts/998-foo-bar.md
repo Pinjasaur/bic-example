@@ -1,4 +1,5 @@
 # A 2nd Post
+tags: uno, dos, tres
 
 And here's a 2nd post in this minimal blog.
 
@@ -6,6 +7,15 @@ And here's a 2nd post in this minimal blog.
 console.log("👋")
 ```
 
-## Subsection
+## Subsection with some spaces and emoji 👋 to test anchor IDs
 
 With some more text.
+
+Bare URL: http://example.com
+
+And some braces: {{key}}
+
+A list:
+
+- [ ] unchecked
+- [x] checked
