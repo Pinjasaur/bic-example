@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /drafts/
+Sitemap: {{SITE_URL}}/robots.txt
