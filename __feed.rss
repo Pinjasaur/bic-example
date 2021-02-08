@@ -1,0 +1,9 @@
+<item>
+  <title><![CDATA[ {{title}} ]]></title>
+  <link>{{SITE_URL}}/{{slug}}</link>
+  {{! Use `guid` to prevent RSS duplicates if permalink for post changes }}
+  <guid isPermaLink="false">{{id}}</guid>
+  {{! RSS feeds need an RFC 822 date }}
+  <pubDate>{{date}}</pubDate>
+  <description><![CDATA[ {{body}} ]]></description>
+</item>
