@@ -2,14 +2,14 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title><![CDATA[ Bic Demo Site ]]></title>
-    <link>http://localhost:3000</link>
-    <atom:link href="http://localhost:3000/feed.rss" rel="self" type="application/rss+xml"/>
+    <link>https://pinjasaur.github.io/bic-example</link>
+    <atom:link href="https://pinjasaur.github.io/bic-example/feed.rss" rel="self" type="application/rss+xml"/>
     <description><![CDATA[ The feed of updates to Bic Demo Site ]]></description>
     <item>
   <title><![CDATA[ A 2nd Post ]]></title>
-  <link>http://localhost:3000/foo-bar</link>
+  <link>https://pinjasaur.github.io/bic-example/foo-bar</link>
   <guid isPermaLink="false">998</guid>
-  <pubDate>Mon, 08 Feb 2021 23:56:57 -0600</pubDate>
+  <pubDate>Tue, 09 Feb 2021 00:09:47 -0600</pubDate>
   <description><![CDATA[ <p>tags: uno, dos, tres</p>
 <p>And here’s a 2nd post in this minimal blog.</p>
 <pre class="js"><code>console.log(&quot;👋&quot;)</code></pre>
@@ -33,9 +33,9 @@ checked</li>
 </item>
 <item>
   <title><![CDATA[ Hello, world! ]]></title>
-  <link>http://localhost:3000/hello-world</link>
+  <link>https://pinjasaur.github.io/bic-example/hello-world</link>
   <guid isPermaLink="false">999</guid>
-  <pubDate>Mon, 08 Feb 2021 23:56:57 -0600</pubDate>
+  <pubDate>Tue, 09 Feb 2021 00:09:47 -0600</pubDate>
   <description><![CDATA[ <p>A first example post!</p>
 <p>Hopefully more to follow. 🤞</p> ]]></description>
 </item>

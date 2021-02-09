@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:3000</loc>
+    <loc>https://pinjasaur.github.io/bic-example</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/about</loc>
+    <loc>https://pinjasaur.github.io/bic-example/about</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/foo-bar</loc>
+    <loc>https://pinjasaur.github.io/bic-example/foo-bar</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/hello-world</loc>
+    <loc>https://pinjasaur.github.io/bic-example/hello-world</loc>
   </url>
 </urlset>
