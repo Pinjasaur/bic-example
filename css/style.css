@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* Layout.
+   -------------------------------------------------------------------------- */
+main > * > li + li {
+  margin-top: 1rem;
+}
+
+/* Component: Header Hash Link.
+   -------------------------------------------------------------------------- */
+.header-hash {
+  text-decoration: none;
+  opacity: .35;
+  padding-right: .25em;
+}
+
+.header-hash:hover {
+  opacity: 1;
+}
