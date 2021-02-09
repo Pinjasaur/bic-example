@@ -9,7 +9,7 @@
   <title><![CDATA[ A 2nd Post ]]></title>
   <link>https://pinjasaur.github.io/bic-example/foo-bar</link>
   <guid isPermaLink="false">998</guid>
-  <pubDate>Tue, 09 Feb 2021 00:15:58 -0600</pubDate>
+  <pubDate>Tue, 09 Feb 2021 00:23:31 -0600</pubDate>
   <description><![CDATA[ <p>tags: uno, dos, tres</p>
 <p>And here’s a 2nd post in this minimal blog.</p>
 <pre class="js"><code>console.log(&quot;👋&quot;)</code></pre>
@@ -35,7 +35,7 @@ checked</li>
   <title><![CDATA[ Hello, world! ]]></title>
   <link>https://pinjasaur.github.io/bic-example/hello-world</link>
   <guid isPermaLink="false">999</guid>
-  <pubDate>Tue, 09 Feb 2021 00:15:58 -0600</pubDate>
+  <pubDate>Tue, 09 Feb 2021 00:23:31 -0600</pubDate>
   <description><![CDATA[ <p>A first example post!</p>
 <p>Hopefully more to follow. 🤞</p> ]]></description>
 </item>
