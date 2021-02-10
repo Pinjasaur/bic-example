@@ -31,7 +31,7 @@ jobs:
         run: sudo apt install git-restore-mtime && git restore-mtime
 
       - name: Build
-        run: ./deploy.sh
+        run: docker run --rm -v "$PWD":/src docker.pkg.github.com/pinjasaur/bic/bic:latest
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
