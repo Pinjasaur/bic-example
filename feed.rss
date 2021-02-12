@@ -8,8 +8,8 @@
     <item>
   <title><![CDATA[ A 2nd Post ]]></title>
   <link>https://pinjasaur.github.io/bic-example/foo-bar</link>
-  <guid isPermaLink="false">998</guid>
-  <pubDate>Thu, 11 Feb 2021 20:43:08 -0600</pubDate>
+  <guid isPermaLink="false">bic_0xokmQEZONYb6BalNBnR3y27lG45JPDp</guid>
+  <pubDate>Fri, 12 Feb 2021 00:34:32 -0600</pubDate>
   <description><![CDATA[ <p>And here’s a 2nd post in this minimal blog.</p>
 <pre class="js"><code>console.log(&quot;👋&quot;)</code></pre>
 <h2 id="subsection-with-some-spaces-and-emoji--to-test-anchor-ids">Subsection with some spaces and emoji 👋 to test anchor IDs</h2>
@@ -25,15 +25,20 @@ checked</li>
 </ul>
 <h3 id="h3-header">H3 Header</h3>
 <p>And some text.</p>
+<pre class="diff"><code>- rm -rf /
++ rm -rf / --no-preserve-root</code></pre>
 <h4 id="all">All</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At maxime natus nesciunt! Reiciendis illo nobis fuga repellat, ipsam vitae laudantium provident minus natus enim modi veritatis asperiores architecto. Quia, iste!</p>
 <h5 id="the">the</h5>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus numquam repudiandae quisquam explicabo ullam rem voluptatum, ut molestiae eaque ratione pariatur cumque quae saepe reprehenderit ex sapiente. Perspiciatis, placeat sint.</p>
+<p>Et amet molestiae tempora fugiat omnis magni laborum similique nobis porro iusto quasi, eius nam corrupti inventore nemo rem facilis praesentium sit. Numquam, nostrum? Quas culpa accusamus illo sunt pariatur?</p>
 <h6 id="way">way</h6>
 <p>down. 🙃</p> ]]></description>
 </item>
 <item>
   <title><![CDATA[ Hello, world! ]]></title>
   <link>https://pinjasaur.github.io/bic-example/hello-world</link>
-  <guid isPermaLink="false">999</guid>
+  <guid isPermaLink="false">bic_47r506xlymoQwVn1BVvkezqNAZ13GEL2</guid>
   <pubDate>Sat, 23 Jan 2021 17:56:25 -0600</pubDate>
   <description><![CDATA[ <p>A first example post!</p>
 <p>Hopefully more to follow. 🤞</p> ]]></description>
