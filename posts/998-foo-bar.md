@@ -1,5 +1,4 @@
 # A 2nd Post
-tags: uno, dos, tres
 
 And here's a 2nd post in this minimal blog.
 
