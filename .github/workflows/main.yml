@@ -30,11 +30,11 @@ jobs:
       - name: mtime
         run: sudo apt install git-restore-mtime && git restore-mtime
       
-      - name: Log into registry
-        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
+#       - name: Log into registry
+#         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
 
       - name: Build
-        run: docker run --rm -v "$PWD":/src docker.pkg.github.com/pinjasaur/bic/bic:latest
+        run: docker run --rm -v "$PWD":/src ghcr.io/pinjasaur/bic:latest
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
