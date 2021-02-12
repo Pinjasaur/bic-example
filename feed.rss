@@ -9,9 +9,8 @@
   <title><![CDATA[ A 2nd Post ]]></title>
   <link>https://pinjasaur.github.io/bic-example/foo-bar</link>
   <guid isPermaLink="false">998</guid>
-  <pubDate>Mon, 25 Jan 2021 21:43:39 -0600</pubDate>
-  <description><![CDATA[ <p>tags: uno, dos, tres</p>
-<p>And here’s a 2nd post in this minimal blog.</p>
+  <pubDate>Thu, 11 Feb 2021 20:43:08 -0600</pubDate>
+  <description><![CDATA[ <p>And here’s a 2nd post in this minimal blog.</p>
 <pre class="js"><code>console.log(&quot;👋&quot;)</code></pre>
 <h2 id="subsection-with-some-spaces-and-emoji--to-test-anchor-ids">Subsection with some spaces and emoji 👋 to test anchor IDs</h2>
 <p>With some more text.</p>
