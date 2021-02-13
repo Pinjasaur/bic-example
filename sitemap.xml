@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pinjasaur.github.io/bic-example</loc>
+    <loc>https://demo.bic.sh</loc>
   </url>
   <url>
-    <loc>https://pinjasaur.github.io/bic-example/about</loc>
+    <loc>https://demo.bic.sh/about</loc>
   </url>
   <url>
-    <loc>https://pinjasaur.github.io/bic-example/foo-bar</loc>
+    <loc>https://demo.bic.sh/foo-bar</loc>
   </url>
   <url>
-    <loc>https://pinjasaur.github.io/bic-example/hello-world</loc>
+    <loc>https://demo.bic.sh/hello-world</loc>
   </url>
 </urlset>
