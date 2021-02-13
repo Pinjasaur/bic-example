@@ -2,7 +2,7 @@
 
 Example site to be used with [bic](https://github.com/Pinjasaur/bic).
 
-View it live: https://pinjasaur.github.io/bic-example/
+View it live: https://demo.bic.sh/
 
 ## License
 
