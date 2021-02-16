@@ -2,6 +2,8 @@
 
   "use strict"
 
+  hljs.initHighlightingOnLoad()
+
   /**
    * Add the nice hash-link to headers.
    * Inspired by CodePen: https://blog.codepen.io/2016/11/17/anchor-links-post-headers/
