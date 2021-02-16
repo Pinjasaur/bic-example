@@ -1,10 +1,12 @@
 @charset "utf-8";
 
+
 /* Layout.
    -------------------------------------------------------------------------- */
 main > * > li + li {
   margin-top: 1rem;
 }
+
 
 /* Typography.
    -------------------------------------------------------------------------- */
@@ -34,6 +36,23 @@ p { /* Source: http://clagnut.com/blog/2395 */
   hyphenate-limit-lines: 2;
   hyphenate-limit-last: always;
   hyphenate-limit-zone: 8%;
+}
+
+
+/* Overrides: highlight.js.
+   -------------------------------------------------------------------------- */
+.hljs,
+.hljs-subst {
+  color: var(--preformatted);
+}
+
+.hljs {
+  background-color: unset;
+}
+
+pre *,
+code * {
+  font-family: var(--mono-font);
 }
 
 
