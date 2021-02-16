@@ -8,7 +8,7 @@
     <item>
   <title><![CDATA[ A 2nd Post ]]></title>
   <link>https://demo.bic.sh/foo-bar</link>
-  <guid isPermaLink="false">bic_0xokmQEZONYb6BalNBnR3y27lG45JPDp</guid>
+  <guid isPermaLink="false">bic_okmQEZONYb6BalNBnR3y27lG45JP</guid>
   <pubDate>Fri, 12 Feb 2021 00:34:32 -0600</pubDate>
   <description><![CDATA[ <p>And here’s a 2nd post in this minimal blog.</p>
 <pre class="js"><code>console.log(&quot;👋&quot;)</code></pre>
@@ -38,7 +38,7 @@ checked</li>
 <item>
   <title><![CDATA[ Hello, world! ]]></title>
   <link>https://demo.bic.sh/hello-world</link>
-  <guid isPermaLink="false">bic_47r506xlymoQwVn1BVvkezqNAZ13GEL2</guid>
+  <guid isPermaLink="false">bic_r506xlymoQwVn1BVvkezqNAZ13GE</guid>
   <pubDate>Sat, 23 Jan 2021 17:56:25 -0600</pubDate>
   <description><![CDATA[ <p>A first example post!</p>
 <p>Hopefully more to follow. 🤞</p> ]]></description>
