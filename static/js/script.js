@@ -5,15 +5,32 @@
   // Syntax highlighting.
   hljs.initHighlightingOnLoad()
 
-  // Mermaid diagrams.
+  /**
+   * Mermaid diagrams.
+   *
+   * First, take all Markdown ```mermaid elements and finesse them into a
+   * div.mermaid with the original source in a <details>. It's worth noting
+   * that Mermaid uses commonly-encoded entities like > (&gt;) which this
+   * strategy deals with e.g. $el.textContent.
+   *
+   * Second, initialize Mermaid with the `securityLevel` set to "loose" as the
+   * diagrams are first-party authored and the `theme` set to "dark" if that
+   * is the preferred color scheme.
+   */
   document.querySelectorAll("pre.mermaid").forEach($el => $el.outerHTML = `
     <div class="mermaid">${$el.textContent}</div>
     <details>
       <summary>Diagram source</summary>
       <pre>${$el.textContent}</pre>
     </details>
-    `)
-  // mermaid.mermaidAPI.initialize({ startOnLoad: true }, document.querySelectorAll("pre.mermaid"))
+  `)
+
+  mermaid.initialize({
+    securityLevel: "loose",
+    theme: (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ?
+      "dark" :
+      "default"
+  })
 
   /**
    * Add the nice hash-link to headers.
