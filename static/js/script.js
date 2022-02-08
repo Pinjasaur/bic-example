@@ -2,7 +2,18 @@
 
   "use strict"
 
+  // Syntax highlighting.
   hljs.initHighlightingOnLoad()
+
+  // Mermaid diagrams.
+  document.querySelectorAll("pre.mermaid").forEach($el => $el.outerHTML = `
+    <div class="mermaid">${$el.textContent}</div>
+    <details>
+      <summary>Diagram source</summary>
+      <pre>${$el.textContent}</pre>
+    </details>
+    `)
+  // mermaid.mermaidAPI.initialize({ startOnLoad: true }, document.querySelectorAll("pre.mermaid"))
 
   /**
    * Add the nice hash-link to headers.
