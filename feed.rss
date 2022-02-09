@@ -9,7 +9,7 @@
   <title><![CDATA[ Using Mermaid Diagrams ]]></title>
   <link>https://demo.bic.sh/mermaid-diagrams</link>
   <guid isPermaLink="false">bic_B36K8Pp0z7R5ngNLdwWrDXQjZLEg</guid>
-  <pubDate>Tue, 08 Feb 2022 09:26:20 -0600</pubDate>
+  <pubDate>Tue, 08 Feb 2022 22:46:45 -0600</pubDate>
   <description><![CDATA[ <p><a href="https://github.com/mermaid-js/mermaid">Mermaid</a> diagrams<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> rendered client-side in your static blog.</p>
 <pre class="mermaid"><code>graph TD;
     A--&gt;B;
@@ -28,6 +28,7 @@
     John-&gt;&gt;Bob: How about you?
     Bob--&gt;&gt;John: Jolly good!</code></pre>
 <p>These are taken from the GitHub announcement: <a href="https://github.com/github/roadmap/issues/372" class="uri">https://github.com/github/roadmap/issues/372</a></p>
+<p>Don’t forget there’s a <a href="/drafts/untitled">draft you can view</a> in this demo.</p>
 <section class="footnotes" role="doc-endnotes">
 <hr />
 <ol>
