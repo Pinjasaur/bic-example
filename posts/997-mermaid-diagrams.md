@@ -27,4 +27,6 @@ sequenceDiagram
 
 These are taken from the GitHub announcement: <https://github.com/github/roadmap/issues/372>
 
+Don't forget there's a [draft you can view](/drafts/untitled) in this demo.
+
 [Mermaid]: https://github.com/mermaid-js/mermaid
