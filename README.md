@@ -10,6 +10,8 @@ View it live: https://demo.bic.sh/
 - [Simple.css](https://simplecss.org/) by [Kev Quirk](https://kevq.uk/)
 - [highlight.js](https://highlightjs.org/)
 - [instant.page](https://instant.page/)
+- [Mermaid](https://github.com/mermaid-js/mermaid) diagram support
+- [Hash links](https://blog.codepen.io/2016/11/17/anchor-links-post-headers/) for headings
 
 ## License
 

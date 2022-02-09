@@ -2,9 +2,6 @@
 
   "use strict"
 
-  // Syntax highlighting.
-  hljs.initHighlightingOnLoad()
-
   /**
    * Mermaid diagrams.
    *
@@ -15,8 +12,9 @@
    *
    * Second, initialize Mermaid with the `securityLevel` set to "loose" as the
    * diagrams are first-party authored and the `theme` set to "dark" if that
-   * is the preferred color scheme.
+   * is the preferred color scheme. Also, `logLevel` if something goes wrong.
    */
+
   document.querySelectorAll("pre.mermaid").forEach($el => $el.outerHTML = `
     <div class="mermaid">${$el.textContent}</div>
     <details>
@@ -26,11 +24,18 @@
   `)
 
   mermaid.initialize({
+    logLevel: "error",
     securityLevel: "loose",
     theme: (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ?
       "dark" :
       "default"
   })
+
+  /**
+   * Syntax highlighting.
+   */
+
+  hljs.initHighlightingOnLoad()
 
   /**
    * Add the nice hash-link to headers.
