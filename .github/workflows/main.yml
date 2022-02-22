@@ -32,7 +32,7 @@ jobs:
         run: sudo apt install git-restore-mtime && git restore-mtime
 
       - name: chmod
-        run: ls -alh; exit 1
+        run: chmod 777 .
 
       - name: Build
         run: docker run --rm -v "$PWD":/src ghcr.io/pinjasaur/bic:$BIC_VERSION
