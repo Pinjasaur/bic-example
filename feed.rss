@@ -6,6 +6,37 @@
     <atom:link href="https://demo.bic.sh/feed.rss" rel="self" type="application/rss+xml"/>
     <description><![CDATA[ The feed of updates to Bic Demo Site ]]></description>
     <item>
+  <title><![CDATA[ Using Mermaid Diagrams ]]></title>
+  <link>https://demo.bic.sh/mermaid-diagrams</link>
+  <guid isPermaLink="false">bic_B36K8Pp0z7R5ngNLdwWrDXQjZLEg</guid>
+  <pubDate>Mon, 21 Feb 2022 20:56:21 -0600</pubDate>
+  <description><![CDATA[ <p><a href="https://github.com/mermaid-js/mermaid">Mermaid</a> diagrams<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> rendered client-side in your static blog.</p>
+<pre class="mermaid"><code>graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;</code></pre>
+<p>And here’s another, to prove enumeration is a thing.</p>
+<pre class="mermaid"><code>sequenceDiagram
+    autonumber
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+        John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!</code></pre>
+<p>These are taken from the GitHub announcement: <a href="https://github.com/github/roadmap/issues/372" class="uri">https://github.com/github/roadmap/issues/372</a></p>
+<p>Don’t forget there’s a <a href="/drafts/untitled">draft you can view</a> in this demo.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Also, footnotes are a thing. :)<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section> ]]></description>
+</item>
+<item>
   <title><![CDATA[ A 2nd Post ]]></title>
   <link>https://demo.bic.sh/foo-bar</link>
   <guid isPermaLink="false">bic_okmQEZONYb6BalNBnR3y27lG45JP</guid>

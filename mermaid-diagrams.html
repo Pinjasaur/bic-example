@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Draft Post | Bic Demo Site</title>
+  <title>Using Mermaid Diagrams | Bic Demo Site</title>
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for Bic Demo Site" href="/feed.rss">
   <link rel="stylesheet" href="https://unpkg.com/sanitize.css@^12.0.1/evergreen.css">
   <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
@@ -23,13 +23,35 @@
 
   <main>
     <article>
-      <h1>My Draft Post</h1>
+      <h1>Using Mermaid Diagrams</h1>
       <small>Last modified February 21, 2022</small>
       <hr>
 
-      <p>This is some draft post.</p>
-<p>It won’t be rendered under posts, but will exist under <code>/drafts</code> which is disallowed from crawling in the <a href="../robots.txt"><code>/robots.txt</code></a>.</p>
-<p>It’s a nice way to get feedback and iterate on a post. Once you’re ready to publish, just move it from <code>drafts/</code> into <code>posts/</code>. :)</p>
+      <p><a href="https://github.com/mermaid-js/mermaid">Mermaid</a> diagrams<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> rendered client-side in your static blog.</p>
+<pre class="mermaid"><code>graph TD;
+    A--&gt;B;
+    A--&gt;C;
+    B--&gt;D;
+    C--&gt;D;</code></pre>
+<p>And here’s another, to prove enumeration is a thing.</p>
+<pre class="mermaid"><code>sequenceDiagram
+    autonumber
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+        John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!</code></pre>
+<p>These are taken from the GitHub announcement: <a href="https://github.com/github/roadmap/issues/372" class="uri">https://github.com/github/roadmap/issues/372</a></p>
+<p>Don’t forget there’s a <a href="/drafts/untitled">draft you can view</a> in this demo.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Also, footnotes are a thing. :)<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
     </article>
   </main>
 
