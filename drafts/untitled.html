@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
   <title>My Draft Post | Bic Demo Site</title>
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for Bic Demo Site" href="/feed.rss">
   <link rel="stylesheet" href="https://unpkg.com/sanitize.css@^12.0.1/evergreen.css">
@@ -28,7 +29,7 @@
       <hr>
 
       <p>This is some draft post.</p>
-<p>It won’t be rendered under posts, but will exist under <code>/drafts</code> which is disallowed from crawling in the <a href="../robots.txt"><code>/robots.txt</code></a>.</p>
+<p>It won’t be rendered under posts, but will exist under <code>/drafts</code>. Plus, the <code>entry.html</code> uses the <code>draft</code> key to conditionally add the <code>noindex</code> value via a <code>&lt;meta&gt;</code> tag. This should prevent drafts from being indexed by search engines.</p>
 <p>It’s a nice way to get feedback and iterate on a post. Once you’re ready to publish, just move it from <code>drafts/</code> into <code>posts/</code>. :)</p>
     </article>
   </main>
