@@ -6,10 +6,20 @@
     <atom:link href="https://demo.bic.sh/feed.rss" rel="self" type="application/rss+xml"/>
     <description><![CDATA[ The feed of updates to Bic Demo Site ]]></description>
     <item>
+  <title><![CDATA[ Support for Tags ]]></title>
+  <link>https://demo.bic.sh/tags-announcement</link>
+  <guid isPermaLink="false">bic_Ggk2QbmPBWoxvYylvzeRlO7VpYjX</guid>
+  <pubDate>Sun, 14 Jul 2024 19:31:12 +0000</pubDate>
+  <description><![CDATA[ <p>Tags are now supported!</p>
+<p><a href="https://github.com/Pinjasaur/bic/pull/18" class="uri">https://github.com/Pinjasaur/bic/pull/18</a></p>
+<p>You can enumerate all tags on an entry, as seen below.</p>
+<p>Additionally, you can view all the tags for the site at <a href="/tags">/tags</a>.</p> ]]></description>
+</item>
+<item>
   <title><![CDATA[ Using Mermaid Diagrams ]]></title>
   <link>https://demo.bic.sh/mermaid-diagrams</link>
   <guid isPermaLink="false">bic_B36K8Pp0z7R5ngNLdwWrDXQjZLEg</guid>
-  <pubDate>Mon, 21 Feb 2022 20:56:21 -0600</pubDate>
+  <pubDate>Tue, 22 Feb 2022 02:56:21 +0000</pubDate>
   <description><![CDATA[ <p><a href="https://github.com/mermaid-js/mermaid">Mermaid</a> diagrams<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> rendered client-side in your static blog.</p>
 <pre class="mermaid"><code>graph TD;
     A--&gt;B;
@@ -40,7 +50,7 @@
   <title><![CDATA[ A 2nd Post ]]></title>
   <link>https://demo.bic.sh/foo-bar</link>
   <guid isPermaLink="false">bic_okmQEZONYb6BalNBnR3y27lG45JP</guid>
-  <pubDate>Fri, 12 Feb 2021 00:34:32 -0600</pubDate>
+  <pubDate>Fri, 12 Feb 2021 06:34:32 +0000</pubDate>
   <description><![CDATA[ <p>And here’s a 2nd post in this minimal blog.</p>
 <pre class="js"><code>console.log(&quot;👋&quot;)</code></pre>
 <h2 id="subsection-with-some-spaces-and-emoji--to-test-anchor-ids">Subsection with some spaces and emoji 👋 to test anchor IDs</h2>
@@ -70,7 +80,7 @@ checked</li>
   <title><![CDATA[ Hello, world! ]]></title>
   <link>https://demo.bic.sh/hello-world</link>
   <guid isPermaLink="false">bic_r506xlymoQwVn1BVvkezqNAZ13GE</guid>
-  <pubDate>Sat, 23 Jan 2021 17:56:25 -0600</pubDate>
+  <pubDate>Sat, 23 Jan 2021 23:56:25 +0000</pubDate>
   <description><![CDATA[ <p>A first example post!</p>
 <p>Hopefully more to follow. 🤞</p> ]]></description>
 </item>
