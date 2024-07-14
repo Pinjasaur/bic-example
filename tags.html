@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> _head.html}}
+<body>
+
+  {{> _header.html}}
+
+  <main>
+    <h2>All tags</h2>
+    <ul>
+      {{#all_tags}}
+      <li><a href="/tags/{{@key}}">{{@key}}</a> <small>({{.}})</small></li>
+      {{/all_tags}}
+      {{^all_tags}}
+      <li><em>No tags.</em></li>
+      {{/all_tags}}
+    </ul>
+    <p><small>View the source: <a href="https://github.com/Pinjasaur/bic-example" target="_blank" rel="noopener">Pinjasaur/bic-example</a>.</small></p>
+  </main>
+
+  {{> _footer.html}}
+
+</body>
+</html>
