@@ -12,6 +12,18 @@
       <hr>
 
       {{{body}}}
+
+      {{#tags.0}}
+      <hr>
+      <details>
+        <summary>Tags</summary>
+        <ul>
+          {{#tags}}
+          <li><a href="/tags/{{.}}">{{.}}</a></li>
+          {{/tags}}
+        </ul>
+      </details>
+      {{/tags.0}}
     </article>
   </main>
 
