@@ -37,6 +37,9 @@ jobs:
       - name: Build
         run: docker run --rm -v "$PWD":/src ghcr.io/pinjasaur/bic:$BIC_VERSION
 
+      - name: chmod the sequel
+        run: chmod 777 .
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20 # current LTS
