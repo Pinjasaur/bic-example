@@ -68,7 +68,7 @@ code * {
   opacity: 1;
 }
 
-/* Component: Pagefind Search UI Dark Mode.
+/* Overrides: Pagefind.
    -------------------------------------------------------------------------- */
 @media (prefers-color-scheme: dark) {
   /* Duplicated for specificity */
@@ -79,4 +79,8 @@ code * {
     --pagefind-ui-border: #152028;
     --pagefind-ui-tag: #152028;
   }
+}
+
+.pagefind-ui__search-clear.pagefind-ui__search-clear:hover {
+  background-color: unset;
 }
