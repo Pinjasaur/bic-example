@@ -34,14 +34,11 @@ jobs:
       - name: chmod
         run: chmod 777 .
 
-      - name: ls1
-        run: ls -alh
-
       - name: Build
         run: docker run --rm -v "$PWD":/src ghcr.io/pinjasaur/bic:$BIC_VERSION
 
-      - name: ls2
-        run: ls -alh
+      - name: chown
+        run: chown -R runner:docker build
 
       - uses: actions/setup-node@v4
         with:
