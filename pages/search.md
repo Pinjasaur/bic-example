@@ -12,11 +12,11 @@
       autofocus: true,
       // Strip .html from URLs
       processResult: function (result) {
-        const removeHTML = url => url.replaceAll(/\.html/g, "")
-        result.url = removeHTML(result.url)
+        const stripHtmlExt = url => url.replaceAll(/\.html/g, "")
+        result.url = stripHtmlExt(result.url)
         if (result.sub_results)
           result.sub_results = result.sub_results.map(sub_result => {
-            sub_result.url = removeHTML(sub_result.url)
+            sub_result.url = stripHtmlExt(sub_result.url)
             return sub_result
           })
         return result
