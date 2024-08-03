@@ -5,7 +5,7 @@
 
   {{> _header.html}}
 
-  <main>
+  <main{{^draft}} data-pagefind-body{{/draft}}>
     <article>
       <h1>{{title}}</h1>
       <small>Last modified {{date}}</small>
