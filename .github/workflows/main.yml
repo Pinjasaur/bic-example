@@ -38,7 +38,7 @@ jobs:
         run: docker run --rm -v "$PWD":/src ghcr.io/pinjasaur/bic:$BIC_VERSION
 
       - name: chown
-        run: sudo chown -R runner:docker build
+        run: echo "$(whoami):$(id -gn)" | xargs -I {} sudo chown -R {} build
 
       - uses: actions/setup-node@v4
         with:
