@@ -67,3 +67,20 @@ code * {
 .header-hash:hover {
   opacity: 1;
 }
+
+/* Overrides: Pagefind.
+   -------------------------------------------------------------------------- */
+@media (prefers-color-scheme: dark) {
+  /* Duplicated for specificity */
+  :root:root {
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+  }
+}
+
+.pagefind-ui__search-clear.pagefind-ui__search-clear:hover {
+  background-color: unset;
+}

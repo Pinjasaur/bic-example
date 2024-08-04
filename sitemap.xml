@@ -7,6 +7,12 @@
     <loc>https://demo.bic.sh/about</loc>
   </url>
   <url>
+    <loc>https://demo.bic.sh/search</loc>
+  </url>
+  <url>
+    <loc>https://demo.bic.sh/pagefind-integration</loc>
+  </url>
+  <url>
     <loc>https://demo.bic.sh/tags-announcement</loc>
   </url>
   <url>

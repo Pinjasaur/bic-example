@@ -6,9 +6,19 @@
     <atom:link href="https://demo.bic.sh/feed.rss" rel="self" type="application/rss+xml"/>
     <description><![CDATA[ The feed of updates to Bic Demo Site ]]></description>
     <item>
+  <title><![CDATA[ Static Site Searching with Pagefind! ]]></title>
+  <link>https://demo.bic.sh/pagefind-integration</link>
+  <guid isPermaLink="false">bic_E86hxLZ9ck8reBm0UyPW6j1V2vbl</guid>
+  <pubDate>Sat, 03 Aug 2024 22:10:30 +0000</pubDate>
+  <description><![CDATA[ <p>Great news, I tried out integrating <a href="https://pagefind.app/">Pagefind</a> on this demo site and it works pretty slick. Needed to do a bit of config to correctly set up dark mode UI and some overrides on some existing styling, but otherwise it was pretty seamless.</p>
+<p>It’s configured to index pages and posts. Not drafts or other static content.</p>
+<p>To try it, head over to the <a href="/search">Search page</a>.</p>
+<p>🎉</p> ]]></description>
+</item>
+<item>
   <title><![CDATA[ Support for Tags ]]></title>
   <link>https://demo.bic.sh/tags-announcement</link>
-  <guid isPermaLink="false">bic_Ggk2QbmPBWoxvYylvzeRlO7VpYjX</guid>
+  <guid isPermaLink="false">bic_VtSXmZF31wYIqpkviO5nCzBW2Eyj</guid>
   <pubDate>Sun, 14 Jul 2024 19:31:12 +0000</pubDate>
   <description><![CDATA[ <p>Tags are now supported!</p>
 <p><a href="https://github.com/Pinjasaur/bic/pull/18" class="uri">https://github.com/Pinjasaur/bic/pull/18</a></p>
@@ -18,7 +28,7 @@
 <item>
   <title><![CDATA[ Using Mermaid Diagrams ]]></title>
   <link>https://demo.bic.sh/mermaid-diagrams</link>
-  <guid isPermaLink="false">bic_B36K8Pp0z7R5ngNLdwWrDXQjZLEg</guid>
+  <guid isPermaLink="false">bic_uQe2YK1rnl0MGUW7ijVZhayOLJDN</guid>
   <pubDate>Tue, 22 Feb 2022 02:56:21 +0000</pubDate>
   <description><![CDATA[ <p><a href="https://github.com/mermaid-js/mermaid">Mermaid</a> diagrams<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> rendered client-side in your static blog.</p>
 <pre class="mermaid"><code>graph TD;
@@ -39,30 +49,28 @@
     Bob--&gt;&gt;John: Jolly good!</code></pre>
 <p>These are taken from the GitHub announcement: <a href="https://github.com/github/roadmap/issues/372" class="uri">https://github.com/github/roadmap/issues/372</a></p>
 <p>Don’t forget there’s a <a href="/drafts/untitled">draft you can view</a> in this demo.</p>
-<section class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>Also, footnotes are a thing. :)<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Also, footnotes are a thing. :)<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section> ]]></description>
 </item>
 <item>
   <title><![CDATA[ A 2nd Post ]]></title>
   <link>https://demo.bic.sh/foo-bar</link>
-  <guid isPermaLink="false">bic_okmQEZONYb6BalNBnR3y27lG45JP</guid>
+  <guid isPermaLink="false">bic_OzhJLhNcSbfeDK7HiYmCBA89yxzg</guid>
   <pubDate>Fri, 12 Feb 2021 06:34:32 +0000</pubDate>
   <description><![CDATA[ <p>And here’s a 2nd post in this minimal blog.</p>
 <pre class="js"><code>console.log(&quot;👋&quot;)</code></pre>
-<h2 id="subsection-with-some-spaces-and-emoji--to-test-anchor-ids">Subsection with some spaces and emoji 👋 to test anchor IDs</h2>
+<h2 id="subsection-with-some-spaces-and-emoji-wave-to-test-anchor-ids">Subsection with some spaces and emoji 👋 to test anchor IDs</h2>
 <p>With some more text.</p>
 <p>Bare URL: <a href="http://example.com" class="uri">http://example.com</a></p>
 <p>And some braces: {{key}}</p>
 <p>A list:</p>
 <ul class="task-list">
-<li><input type="checkbox" disabled="" />
-unchecked</li>
-<li><input type="checkbox" disabled="" checked="" />
-checked</li>
+<li><label><input type="checkbox" />unchecked</label></li>
+<li><label><input type="checkbox" checked="" />checked</label></li>
 </ul>
 <h3 id="h3-header">H3 Header</h3>
 <p>And some text.</p>
@@ -79,7 +87,7 @@ checked</li>
 <item>
   <title><![CDATA[ Hello, world! ]]></title>
   <link>https://demo.bic.sh/hello-world</link>
-  <guid isPermaLink="false">bic_r506xlymoQwVn1BVvkezqNAZ13GE</guid>
+  <guid isPermaLink="false">bic_ATas1igzRC6Gs0DnXbv9haf48ojc</guid>
   <pubDate>Sat, 23 Jan 2021 23:56:25 +0000</pubDate>
   <description><![CDATA[ <p>A first example post!</p>
 <p>Hopefully more to follow. 🤞</p> ]]></description>
