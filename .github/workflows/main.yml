@@ -45,7 +45,7 @@ jobs:
           node-version: 20 # current LTS
 
       - name: Index
-        run: RUST_BACKTRACE=1 npx -y pagefind --site build --verbose
+        run: npx -y pagefind --site build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
