@@ -37,8 +37,8 @@ jobs:
       - name: Build
         run: docker run --rm -v "$PWD":/src ghcr.io/pinjasaur/bic:$BIC_VERSION
 
-      - name: chmod the sequel
-        run: chmod -R 777 build
+      - name: chown
+        run: sudo chown -R runner:docker build
 
       - uses: actions/setup-node@v4
         with:
