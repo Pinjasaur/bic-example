@@ -12,6 +12,7 @@ View it live: https://demo.bic.sh/
 - [instant.page](https://instant.page/)
 - [Mermaid](https://github.com/mermaid-js/mermaid) diagram support
 - [Hash links](https://blog.codepen.io/2016/11/17/anchor-links-post-headers/) for headings
+- [Pagefind](https://pagefind.app/) for integrated static site searching
 
 ## License
 
