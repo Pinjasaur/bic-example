@@ -1,0 +1,1 @@
+Sitemap: https://demo.bic.sh/sitemap.xml

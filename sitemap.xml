@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://demo.bic.sh</loc>
+  </url>
+  <url>
+    <loc>https://demo.bic.sh/about</loc>
+  </url>
+  <url>
+    <loc>https://demo.bic.sh/search</loc>
+  </url>
+  <url>
+    <loc>https://demo.bic.sh/pagefind-integration</loc>
+  </url>
+  <url>
+    <loc>https://demo.bic.sh/tags-announcement</loc>
+  </url>
+  <url>
+    <loc>https://demo.bic.sh/mermaid-diagrams</loc>
+  </url>
+  <url>
+    <loc>https://demo.bic.sh/foo-bar</loc>
+  </url>
+  <url>
+    <loc>https://demo.bic.sh/hello-world</loc>
+  </url>
+  <url>
+    <loc>https://demo.bic.sh/tags</loc>
+  </url>
+  <url>
+    <loc>https://demo.bic.sh/tags/meta</loc>
+  </url>
+  <url>
+    <loc>https://demo.bic.sh/tags/announcement</loc>
+  </url>
+</urlset>
